@@ -45,8 +45,7 @@ To quickly test the setup, you can use a short video (around 50 seconds) featuri
 2. Running the sparse and dense reconstruction steps.
 3. Visualizing the 3D model generated from your video.
 
-> **Note:** COLMAP installation may take up to 30 minutes. You can find the pre-built version stored in my Google Drive here: [COLMAP Build on Google Drive](https://drive.google.com/drive/folders/1sn09GHg13miCgTLlLwE0FIB4hwySnKIp?usp=drive_link).
-
+> **Note:** COLMAP installation may take up to 30 minutes. You can find my pre-built implementation in the zip file.
 > **Important:** The total reconstruction time should not exceed 12-15 minutes, but the bottleneck is the sparse reconstruction phase (SfM), which can take about 8 minutes due to CPU utilization (note that Colab provides 2 CPU cores).
 
 This quick test will confirm that the entire pipeline works as expected, allowing you to move on to more complex or larger projects.
